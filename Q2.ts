@@ -1,14 +1,6 @@
-// Question 2 - Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+// Question 2 - Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 
 // Answer
 
-let personName2 = "Asbaq Sajjad";
-
-console.log("Name In Upper Case Is : " + personName2.toUpperCase());
-console.log("Name In Lower Case Is : " + personName2.toLowerCase());
-
-function toTitleCase(str: string): string {
-  return str.replace(/\b\w/g, (c: string) => c.toUpperCase());
-}
-
-console.log("Name in Title Case: " + toTitleCase(personName2));
+let personName = "Asbaq";
+console.log("Hello " + personName + ", what would you like to do today?");

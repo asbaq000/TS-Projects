@@ -1,8 +1,23 @@
-// Question 10 - Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+// Question 10 - Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
 
 // Answer
 
-let names = ["Ali", "Shehroze", "Hadi", "Daniyal"];
-for (let name of names) {
-  console.log(name);
-}
+// Program 1
+let personName3 = "Eric";
+console.log(
+  "Hello " + personName3 + ", would you like to learn some Python today?"
+);
+
+//This program takes a person name and a quote then concatinate them in a sentence
+
+// -------------------------------------------------------------------------------------------------------------
+
+// Program 2
+
+let quote2 = "There is always enough light for the one who wishes to see.";
+let author2 = "Imam Ali";
+let message2 = author2 + " once said, " + '"' + quote2 + '"';
+
+console.log(message2);
+
+//This program takes a quote and an author then concatinate them and store them in another variable and then prints it out

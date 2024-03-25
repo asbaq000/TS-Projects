@@ -1,6 +1,5 @@
-// Question 1 - Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+// Question 1 - Install Node.js, TypeScript and VS Code on your computer.
 
 // Answer
 
-let personName = "Asbaq";
-console.log("Hello " + personName + ", what would you like to do today?");
+// Node.js Typescript and Vs code are already installed on this computer.

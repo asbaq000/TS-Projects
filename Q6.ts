@@ -1,8 +1,7 @@
-// Question 6 - Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+// Question 6 - Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
 
 // Answer
 
-console.log("By Addition : ", 4 + 4);
-console.log("By Subtraction : ", 10 - 2);
-console.log("By Multiplication : ", 4 * 2);
-console.log("By Division : ", 16 / 2);
+let nameWithWhitespace = "\t\n Asbaq Sajjad \n\t";
+console.log("Name with whitespace:", nameWithWhitespace);
+console.log("Stripped name:", nameWithWhitespace.trim());

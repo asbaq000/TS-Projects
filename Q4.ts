@@ -1,9 +1,7 @@
-// Question 4 - Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+// Question 4 - Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should contain the quotation marks
 
 // Answer
 
-let quote1 = "There is always enough light for the one who wishes to see.";
-let author1 = "Imam Ali";
-let message = author1 + " once said, " + '"' + quote1 + '"';
-
-console.log(message);
+let quote = "There is always enough light for the one who wishes to see.";
+let author = "Imam Ali";
+console.log(author + " once said, " + '"' + quote + '"');
